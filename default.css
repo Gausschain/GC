@@ -1,0 +1,180 @@
+@CHARSET "ISO-8859-1";
+
+body {
+  background-color: #202020;
+  color: white;
+  font-family: Arial;
+  vlink="white";
+}
+
+body>header {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 15%;
+  margin-right: 15%; 
+}
+
+#banner {
+
+border-bottom: 4px solid #33CCFF;
+font-family: Monospace;
+width: 34%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 1.5%;
+text-align: center;
+font-size: 75px;
+color: #FF7400;
+letter-spacing: -11px;
+
+}
+
+aside {
+color: #33CCFF;
+}
+
+#hub,#login {
+font-family: Monospace;
+font-size: 15px;
+position: absolute;
+top: 10px;
+right: 7%;
+width: 250px;
+
+}
+
+#register{
+font-size: 25px;
+padding: 3px;
+position: absolute;
+top: 10px;
+left: 15%;
+font-family: Monospace;
+color: #33CCFF;
+}
+
+div.box {
+  border: 2.5px solid #33CCFF;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 8px;
+	width: 40%;
+
+}
+
+div.problem {
+	border: 2px solid #33CCFF;
+	border-radius: 8px;
+	padding: 25px;
+	width:60%;
+	margin: 0 auto 30px auto;
+}
+
+label {
+	display: block;
+	float: left;
+}
+
+section {
+/*  border: 2.5px solid #33CCFF !important;
+  border-radius: 10px; */
+  padding: 0px;
+  margin-top:-20px;
+  margin-bottom:-20px;
+  margin-left:18.5%;
+  margin-right:18.5%;
+}
+
+
+
+h1 {
+	font-weight: normal;
+	color: #FF7400;
+	font-size: 36px;
+	letter-spacing: -2px;
+}
+
+h2.question {
+  font-family: Monospace;
+  font-size: 20px;
+  font-weight: normal;
+  color: #FF7400;
+  letter-spacing: -2px;
+}
+
+h4 {
+  font-family: Monospace;
+  font-size: 20px;
+  color: #FF7400;
+  font-weight: normal;
+  letter-spacing: -2px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:visited{
+	color:white;
+}
+
+#contents {
+width: 600px;
+margin: 8px auto 25px auto;
+text-align: center;
+padding: 5px 10px 5px 50px;
+}	
+
+
+li.top {
+  font-family: Monospace;
+  font-size: 25px;
+  color: white;
+  letter-spacing: -2px;
+  display: inline;
+  margin-right: 40px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top:-10px;
+	margin-left:0%;
+}
+
+th,td {
+	padding: 3px;
+	border: 1px solid white;
+}
+
+th {
+	color: #B0B0B0;
+	letter-spacing:-2px;
+	font-weight: normal;
+	font-size: 20px;
+	font-family: Monospace;
+	border-bottom: 2px solid #33CCFF;
+	text-align: center;
+}
+
+
+td {
+	padding: 9px 3px;
+	text-align: left;
+	
+}
+
+td.num {
+	text-align: center;
+	width:100px;
+}
+
+td.words{
+	text-align: left;
+	width: 1400px;
+	padding-left:10px;
+}
+
+
+
+
